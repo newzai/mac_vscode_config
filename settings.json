@@ -1,0 +1,53 @@
+{
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true ,
+    "python.formatting.autopep8Path": "autopep8",
+    "python.autoComplete.showAdvancedMembers":true,
+    "python.formatting.provider": "yapf",
+    "python.pythonPath": "/usr/local/bin/python",
+    "editor.fontSize": 14,
+    "editor.minimap.enabled": false,
+    "go.toolsGopath": "/Users/chenxiaohong/gowork",
+    "workbench.iconTheme": "vscode-icons",
+    "window.zoomLevel": 0,
+    "go.gocodeAutoBuild": false,
+    "go.lintOnSave": "package",
+    "go.vetOnSave": "package",
+    "go.buildFlags": [
+        
+    ],
+    "go.lintFlags": [
+        
+    ],
+    "go.vetFlags": [
+        
+    ],
+    "go.buildOnSave": "off",
+    "go.goroot": "/usr/local/Cellar/go/1.9.2/libexec",
+    "go.gopath": "/Users/chenxiaohong/gowork",
+    "go.useCodeSnippetsOnFunctionSuggest": true,
+    "go.coverOnSave": false,
+    "go.formatTool": "goreturns",
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "http.proxy": "http://127.0.0.1:1087",
+    "workbench.colorTheme": "Solarized Dark",
+    "go.autocompleteUnimportedPackages": true,
+    "python.linting.flake8Args": [
+        "--max-line-length=248"
+    ],
+    "terminal.integrated.rendererType": "dom",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/*.d" : true,
+        "**/*.o" : true 
+    },
+    "files.associations": {
+        "*.docker" : "dockerfile"
+    }
+}
